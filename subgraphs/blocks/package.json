@@ -1,13 +1,13 @@
 {
   "name": "blocks",
-  "description": "PancakeSwap Subgraph",
+  "description": "Hydroblockchain Subgraph",
   "version": "1.0.0",
-  "repository": "git@github.com:pancakeswap/pancake-subgraph.git",
-  "author": "PancakeSwap",
+  "repository": "",
+  "author": "Hydroblockchain",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/blocks subgraph.yaml"
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ Hydroblockchain/blocks subgraph.yaml"
   }
 }

@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Track Pairs and Tokens on PancakeSwap (v2) protocol
-repository: https://github.com/pancakeswap
+description: Track Pairs and Tokens on Hydroswap (v2) protocol
+repository: https://github.com/HydroBlockchain
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+      address: "0x3e502e2c603f1aC4a5126cFbbd117fA72d5004Ab"
       abi: Factory
-      startBlock: 6809737
+      startBlock: 1865062
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: PancakeSwap is a decentralized protocol for automated token exchange on Binance Smart Chain.
-repository: https://github.com/pancakeswap
+description: Hydroswap is a decentralized protocol for automated token exchange on Binance Smart Chain.
+repository: https://github.com/hydroblockchain
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: bsc
     source:
-      address: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73'
+      address: "0xB30EbAe4528a02020AC3f121952492987B1B8160"
       abi: Factory
-      startBlock: 6809737
+      startBlock: 18650629
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
